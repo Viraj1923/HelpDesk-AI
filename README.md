@@ -38,34 +38,39 @@ The system allows users to create support tickets, agents/admins to manage them,
 ## 🚀 Project Setup
 
 ### 1️⃣ Backend
-
+```bash
 cd server
 npm install
-Create a .env file:
+```
 
+- Create a `.env` file:
+```env
 MONGO_URI=mongodb://localhost:27017/helpdesk
 JWT_SECRET=supersecret
 PORT=5000
-Start server: npm run dev
+```
 
----
+- Start server:
+```bash
+npm run dev
+```
 
 ### 2️⃣ Frontend
-
-bash
-Copy
-Edit
+```bash
 cd client
 npm install
 npm run dev
-App will run on:
-👉 Frontend: http://localhost:5173
-👉 Backend: http://localhost:5000
+```
 
-🏗️ System Architecture
-mermaid
-Copy
-Edit
+App will run on:  
+👉 Frontend: http://localhost:5173  
+👉 Backend: http://localhost:5000  
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
 flowchart TD
     U[User] -->|Login/Register| A[Auth API]
     U -->|Create Ticket| T[Tickets API]
@@ -76,54 +81,62 @@ flowchart TD
     AG[Agent/Admin] -->|Manage Tickets| T
     AG -->|View KB| KB
     AG -->|Resolve Tickets| T
-🧪 Testing
-Run backend tests:
+```
 
-bash
-Copy
-Edit
+---
+
+## 🧪 Testing
+
+- Run backend tests:
+```bash
 cd server
 npm test
-Run frontend:
+```
 
-bash
-Copy
-Edit
+- Run frontend:
+```bash
 cd client
 npm run dev
-Postman collection included (for API testing).
+```
 
-🐳 Docker (Optional)
-bash
-Copy
-Edit
+- Postman collection included (for API testing).
+
+---
+
+## 🐳 Docker (Optional)
+
+```bash
 docker-compose up --build
-📹 Demo Video
+```
+
+---
+
+## 📹 Demo Video
+
 👉 [Demo Video Link Here] (upload Loom/Drive/YouTube)
 
-🌐 Deployment
-Frontend (Vercel/Netlify) → [URL here]
+---
 
-Backend (Render/Heroku) → [URL here]
+## 🌐 Deployment
 
-Database (MongoDB Atlas)
+- **Frontend (Vercel/Netlify)** → [URL here]  
+- **Backend (Render/Heroku)** → [URL here]  
+- **Database (MongoDB Atlas)**  
 
-✅ Checklist (as per PDF)
- User Auth (Login/Register)
+---
 
- Tickets CRUD + AI Suggestion
+## ✅ Checklist (as per PDF)
 
- Audit Logs
+- [x] User Auth (Login/Register)  
+- [x] Tickets CRUD + AI Suggestion  
+- [x] Audit Logs  
+- [x] Knowledge Base  
+- [x] Role-based dashboards (User/Agent/Admin)  
+- [x] Settings page (Confidence toggle)  
+- [x] Deployment ready  
+- [ ] Demo video recorded  
 
- Knowledge Base
+---
 
- Role-based dashboards (User/Agent/Admin)
-
- Settings page (Confidence toggle)
-
- Deployment ready
-
- Demo video recorded
-
-👨‍💻 Developed by: Viraj Mulik
+👨‍💻 **Developed by**: Viraj Mulik  
 📅 Submission Date: 22 Aug 2025
