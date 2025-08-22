@@ -31,7 +31,7 @@ The system allows users to create support tickets, agents/admins to manage them,
 - **Backend**: Node.js + Express.js  
 - **Database**: MongoDB (Mongoose)  
 - **Auth**: JWT  
-- **AI**: Stub workflow (easily replaceable with Gemini/OpenAI API)
+- **AI**: Stub workflow 
 
 ---
 
@@ -99,7 +99,7 @@ cd client
 npm run dev
 ```
 
-- Postman collection included (for API testing).
+- Thunderclient  (for API testing).
 
 ---
 
