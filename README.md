@@ -119,24 +119,11 @@ docker-compose up --build
 
 ## 🌐 Deployment
 
-- **Frontend (Vercel/Netlify)** → [URL here]  
-- **Backend (Render/Heroku)** → [URL here]  
+- **Frontend (Vercel/Netlify)** → https://helpdesk-ai-frontend.vercel.app
+- **Backend (Render/Heroku)** → https://helpdesk-ai-frontend.onrender.com 
 - **Database (MongoDB Atlas)**  
 
 ---
 
-## ✅ Checklist (as per PDF)
-
-- [x] User Auth (Login/Register)  
-- [x] Tickets CRUD + AI Suggestion  
-- [x] Audit Logs  
-- [x] Knowledge Base  
-- [x] Role-based dashboards (User/Agent/Admin)  
-- [x] Settings page (Confidence toggle)  
-- [x] Deployment ready  
-- [ ] Demo video recorded  
-
----
-
 👨‍💻 **Developed by**: Viraj Mulik  
-📅 Submission Date: 22 Aug 2025
+
