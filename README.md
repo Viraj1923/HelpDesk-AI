@@ -38,24 +38,20 @@ The system allows users to create support tickets, agents/admins to manage them,
 ## 🚀 Project Setup
 
 ### 1️⃣ Backend
-```bash
+
 cd server
 npm install
 Create a .env file:
 
-env
-Copy
-Edit
 MONGO_URI=mongodb://localhost:27017/helpdesk
 JWT_SECRET=supersecret
 PORT=5000
-Start server:
+Start server: npm run dev
 
-bash
-Copy
-Edit
-npm run dev
-2️⃣ Frontend
+---
+
+### 2️⃣ Frontend
+
 bash
 Copy
 Edit
