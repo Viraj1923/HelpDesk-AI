@@ -113,7 +113,7 @@ docker-compose up --build
 
 ## 📹 Demo Video
 
-👉 [Demo Video Link Here] (upload Loom/Drive/YouTube)
+👉 https://drive.google.com/file/d/17VgN1ll2gjTQh2-eKgFMnWtlwtykokMK/view?usp=sharing
 
 ---
 
